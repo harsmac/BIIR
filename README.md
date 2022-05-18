@@ -1,14 +1,6 @@
-# BIIR
-Bio-Inspired Image Recognition (BIIR) is official code repo for the paper: Empirical Advocacy of Bio-inspired Models for Robust Image Recognition
+# Empirical Advocacy of Bio-inspired Models for Robust Image Recognition
+Bio-Inspired Image Recognition (BIIR) is official source code repository for the paper NeuroVision2022 paper: "Empirical Advocacy of Bio-inspired Models for Robust Image Recognition" by Harshitha Machiraju*, Oh-Hyeon Choung*, Pascal Frossard, and Michael. H. Herzog.
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
 
 
 <!-- PROJECT SHIELDS -->
@@ -24,7 +16,7 @@ Bio-Inspired Image Recognition (BIIR) is official code repo for the paper: Empir
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
 
@@ -58,7 +50,7 @@ Bio-Inspired Image Recognition (BIIR) is official code repo for the paper: Empir
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#Abstract">Abstract</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -82,13 +74,13 @@ Bio-Inspired Image Recognition (BIIR) is official code repo for the paper: Empir
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Abstract
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+Deep convolutional neural networks (DCNNs) have revolutionized computer vision and are often advocated as good models of the human visual system. However, there are currently many shortcomings of DCNNs, which preclude them as a model of human vision. There are continuous attempts to use features of the human visual system to improve the robustness of neural networks to data perturbations. 
+We provide a detailed analysis of such bio-inspired models and their properties. To this end, we benchmark the robustness of several bio-inspired models against their most comparable baseline DCNN models. We find that bio-inspired models tend to be adversarially robust without requiring any special data augmentation. Additionally, we find that bio-inspired models beat adversarially trained models in the presence of more real-world common corruptions. Interestingly, we also find that bio-inspired models tend to use both low and mid-frequency information, in contrast to other DCNN models. We find that this mix of frequency information makes them robust to both adversarial perturbations and common corruptions.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
@@ -126,7 +118,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/code-Assasin/BIIR.git
    ```
 3. Install NPM packages
    ```sh
@@ -196,9 +188,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Harshitha Machiraju  - harshitha.machiraju@epfl.ch
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+<!-- Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name) -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -218,15 +210,15 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[contributors-url]: https://github.com/code-Assasin/BIIR/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
+[forks-url]: https://github.com/code-Assasin/BIIR/network/members
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
+[stars-url]: https://github.com/code-Assasin/BIIR/stargazers
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
+[issues-url]: https://github.com/code-Assasin/BIIR/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[license-url]: https://github.com/code-Assasin/BIIR/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
