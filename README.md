@@ -199,7 +199,7 @@ Harshitha Machiraju  - harshitha.machiraju@epfl.ch
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* [Readme Template](https://github.com/othneildrew/Best-README-Template)
 * []()
 * []()
 
